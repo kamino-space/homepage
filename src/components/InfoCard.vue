@@ -20,7 +20,7 @@
             </div>
         </modal>
         <div class="avatar">
-            <img src="../assets/images/avatar.jpg" alt="">
+            <img src="../assets/images/avatar.png" alt="">
         </div>
         <div class="name">{{ mikuConfig.name }}</div>
         <div class="post">{{ mikuConfig.job }}</div>

@@ -38,7 +38,7 @@
                 </modal>
             </div>
             <div class="author">
-                <img src="../assets/images/avatar.jpg" alt="">
+                <img src="../assets/images/" alt="">
             </div>
         </div>
         <div class="nav">

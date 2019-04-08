@@ -27,7 +27,7 @@ export default {
   navLinks: [
     // 导航链接, 建议放 5 个
     {
-      name: "Home",
+      name: "主页",
       link: "./"
     },
     {
