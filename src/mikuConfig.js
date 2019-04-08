@@ -8,22 +8,22 @@
  * Modified By: Ice-Hazymoon (imiku.me@gmail.com)
  */
 export default {
-  name: "Ice-Hazymoon",
-  job: "Front-end development",
-  address: "Yunnan China",
-  rss: "https://imiku.me/feed",
-  email: "imiku.me@gmail.com",
+  name: "kamino",
+  job: "*",
+  address: "CN",
+  rss: "https://blog.aikamino.cn/feed",
+  email: "kamino@imea.me",
   contact: {
-    qq: 1733708055,
-    telegram: "hazymoon",
-    email: "imiku.me@gmail.com"
+    qq: 1019728153,
+    telegram: "aikamino",
+    email: "kamino@imea.me"
   },
   pixivId: 16126035, //pixiv id
-  pixivProxy: "https://api.imiku.me/pixivProxy.php?url={url}", // pixiv 图片代理地址, 如果没有代理服务器请填写 `https://api.pixiv.moe/v2/image/`
+  pixivProxy: "https://api.pixiv.moe/v2/image/?url={url}", // pixiv 图片代理地址, 如果没有代理服务器请填写 `https://api.pixiv.moe/v2/image/`
   pixivSanityLevel: 5, // 分级, 默认为5
-  blogUrl: "https://imiku.me", // 博客链接
-  defaultCover: "https://myblogpic.b0.upaiyun.com/2018/07/2018070516124833.jpg", // 文章默认头图
-  blogSearchUrl: "https://imiku.me/?s={keyword}", // 博客搜索链接, {keyword} 为关键字
+  blogUrl: "https://blog.aikamino.cn", // 博客链接
+  defaultCover: "https://blog.aikamino.cn/wp-content/uploads/2018/05/pnf.jpg", // 文章默认头图
+  blogSearchUrl: "https://blog.aikamino.cn/?s={keyword}", // 博客搜索链接, {keyword} 为关键字
   navLinks: [
     // 导航链接, 建议放 5 个
     {
@@ -31,30 +31,34 @@ export default {
       link: "./"
     },
     {
+      name: "官网",
+      link: "https://www.aikamino.cn"
+    },
+    {
+      name: "博客",
+      link: "https://blog.aikamino.cn"
+    },
+    {
+      name: "云服务",
+      link: "https://cloud.aikamino.cn"
+    },
+    {
+      name: "研究所",
+      link: "https://www.isdut.cn"
+    },
+    {
       name: "GitHub",
-      link: "https://github.com/Ice-Hazymoon"
-    },
-    {
-      name: "About",
-      link: "https://i.imiku.me"
-    },
-    {
-      name: "Blog",
-      link: "https://imiku.me"
-    },
-    {
-      name: "Status",
-      link: "https://status.imiku.me/"
+      link: "https://github.com/kamino-space"
     }
   ],
-  wyyyyId: 261910478, // 网易云音乐用户 ID
-  playlistId: 488684458, // 播放的歌单 ID
-  linksData: "https://imiku.me/wp-json/wp/v2/links", // 友情链接数据接口
-  linksUrl: "https://imiku.me/links", // 友情链接页面地址
-  bilibiliId: 21851788, // bilibili 用户ID
-  bilibiliProxy: "https://api.imiku.me/imgProxy.php?url={url}", // bilibili 图片代理地址
-  githubUserName: "Ice-Hazymoon",
-  twitterId: 'Ice_Hayzmoon',
+  wyyyyId: 497107364, // 网易云音乐用户 ID
+  playlistId: 746315839, // 播放的歌单 ID
+  linksData: "https://blog.aikamino.cn/wp-json/wp/v2/links", // 友情链接数据接口
+  linksUrl: "https://blog.aikamino.cn/links", // 友情链接页面地址
+  bilibiliId: 16011372, // bilibili 用户ID
+  bilibiliProxy: "https://blog.aikamino.cn/wp-content/uploads/2018/05/pnf.jpg?url={url}", // bilibili 图片代理地址
+  githubUserName: "kamino-space",
+  twitterId: 'aikamino',
   modules: {
     // 功能开关
     posts: true,
