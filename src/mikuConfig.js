@@ -62,11 +62,11 @@ export default {
   modules: {
     // 功能开关
     posts: true,
-    pixiv: true,
+    pixiv: false,
     bangumi: true,
     music: true,
     friends: true,
-    twitter: true
+    twitter: false
   },
   home: "posts", // 首页默认模块, 请务必选择已开启的模块
   catchTime: 86400000 // 数据缓存的时间(毫秒)
