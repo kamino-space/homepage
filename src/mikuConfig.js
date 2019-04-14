@@ -19,7 +19,7 @@ export default {
     email: "kamino@imea.me"
   },
   pixivId: 16126035, //pixiv id
-  pixivProxy: "https://api.pixiv.moe/v2/image/?url={url}", // pixiv 图片代理地址, 如果没有代理服务器请填写 `https://api.pixiv.moe/v2/image/`
+  pixivProxy: "https://api.isdut.cn/proxy/us?url={url}", // pixiv 图片代理地址, 如果没有代理服务器请填写 `https://api.pixiv.moe/v2/image/`
   pixivSanityLevel: 5, // 分级, 默认为5
   blogUrl: "https://blog.aikamino.cn", // 博客链接
   defaultCover: "https://blog.aikamino.cn/wp-content/uploads/2018/05/pnf.jpg", // 文章默认头图
