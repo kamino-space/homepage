@@ -56,7 +56,7 @@ export default {
   linksData: "https://blog.aikamino.cn/wp-json/wp/v2/links", // 友情链接数据接口
   linksUrl: "https://blog.aikamino.cn/links", // 友情链接页面地址
   bilibiliId: 16011372, // bilibili 用户ID
-  bilibiliProxy: "https://blog.aikamino.cn/wp-content/uploads/2018/05/pnf.jpg?url={url}", // bilibili 图片代理地址
+  bilibiliProxy: "https://api.isdut.cn/proxy/cn?url={url}", // bilibili 图片代理地址
   githubUserName: "kamino-space",
   twitterId: 'aikamino',
   modules: {
