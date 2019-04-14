@@ -36,7 +36,7 @@ export default {
     } else {
       this.$http
         .get(
-          "https://api.imiku.me/proxyApi.php?http://space.bilibili.com/ajax/Bangumi/getList?page=1&pagesize=100&mid=" +
+          "https://https://api.isdut.cn/proxy/cn?url=http://space.bilibili.com/ajax/Bangumi/getList?page=1&pagesize=100&mid=" +
             this.mikuConfig.bilibiliId
         )
         .then(e => {
